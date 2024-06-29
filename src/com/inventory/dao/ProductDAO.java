@@ -25,6 +25,20 @@ public class ProductDAO {
         }
     }
 
+    public void updateProductQuantity(int productId, int newQuantity) {
+        String sql = "UPDATE Product SET quantity = ? WHERE id = ?";
+
+        try (Connection connection = DatabaseConfig.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setInt(1, newQuantity);
+            statement.setInt(2, productId);
+            statement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+
     public List<Product> getAllProducts() {
         List<Product> products = new ArrayList<>();
         String sql = "SELECT * FROM Product";

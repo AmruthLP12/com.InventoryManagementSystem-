@@ -20,5 +20,9 @@ public class ProductService {
         return productDAO.getAllProducts();
     }
 
+    public void updateProductQuantity(int productId, int newQuantity) {
+        productDAO.updateProductQuantity(productId, newQuantity);
+    }
+
     // Similar methods for updateProduct, deleteProduct, etc.
 }
