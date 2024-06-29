@@ -6,10 +6,10 @@ import com.inventory.model.Product;
 import java.util.List;
 
 public class ProductService {
-    private final ProductDAO productDAO;
+    private ProductDAO productDAO;
 
     public ProductService() {
-        this.productDAO = new ProductDAO();
+        productDAO = new ProductDAO();
     }
 
     public void addProduct(Product product) {
@@ -20,9 +20,15 @@ public class ProductService {
         return productDAO.getAllProducts();
     }
 
-    public void updateProductQuantity(int productId, int newQuantity) {
-        productDAO.updateProductQuantity(productId, newQuantity);
+    public Product getProductById(int productId) {
+        return productDAO.getProductById(productId);
     }
 
-    // Similar methods for updateProduct, deleteProduct, etc.
+    public void updateProduct(Product product) {
+        productDAO.updateProduct(product);
+    }
+
+    public void deleteProduct(int productId) {
+        productDAO.deleteProduct(productId);
+    }
 }

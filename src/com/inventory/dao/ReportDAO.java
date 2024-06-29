@@ -10,7 +10,7 @@ public class ReportDAO {
 
     public Map<String, Integer> getProductStockReport() {
         Map<String, Integer> report = new HashMap<>();
-        String sql = "SELECT p.name, s.quantity FROM Products p JOIN Stocks s ON p.id = s.product_id";
+        String sql = "SELECT p.name, s.quantity FROM Product p JOIN Stocks s ON p.id = s.product_id";
 
         try (Connection connection = DatabaseConfig.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql);
@@ -30,7 +30,7 @@ public class ReportDAO {
 
     public Map<String, Integer> getOrderReport() {
         Map<String, Integer> report = new HashMap<>();
-        String sql = "SELECT p.name, SUM(o.quantity) AS total_ordered FROM Orders o JOIN Products p ON o.product_id = p.id GROUP BY p.name";
+        String sql = "SELECT p.name, SUM(o.quantity) AS total_ordered FROM Orders o JOIN Product p ON o.product_id = p.id GROUP BY p.name";
 
         try (Connection connection = DatabaseConfig.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql);

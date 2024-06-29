@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="Stock Added" />
+    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="Report Added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inventory/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inventory/dao/ReportDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/dao/ReportDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inventory/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inventory/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inventory/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inventory/ui/ProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/ui/ProductUI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719670134952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Report Added">
+      <option name="closed" value="true" />
+      <created>1719670418394</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670418394</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +145,7 @@
     <MESSAGE value="Product Done" />
     <MESSAGE value="Order Added" />
     <MESSAGE value="Stock Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stock Added" />
+    <MESSAGE value="Report Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report Added" />
   </component>
 </project>
