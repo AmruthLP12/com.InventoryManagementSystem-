@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="Product Done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/dao/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/dao/OrderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/service/ProductService.java" afterDir="false" />
-    </list>
+    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="Stock Added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719565922272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Order Added">
+      <option name="closed" value="true" />
+      <created>1719669958481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719669958481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Stock Added">
+      <option name="closed" value="true" />
+      <created>1719670134952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719670134952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Product Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product Done" />
+    <MESSAGE value="Order Added" />
+    <MESSAGE value="Stock Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stock Added" />
   </component>
 </project>
