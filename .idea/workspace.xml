@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="Report Added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/dao/ReportDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/dao/ReportDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inventory/ui/ProductUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inventory/ui/ProductUI.java" afterDir="false" />
+    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="Almost Added">
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/dao/OrderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/dao/OrderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/dao/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/dao/StockDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/dao/StockDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/model/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/model/Stock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/service/StockService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/service/StockService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/ui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/ui/OrderUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/ui/OrderUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/ui/ProductUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/ui/ProductUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inventory/ui/StockUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inventory/ui/StockUI.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719670418394</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Almost Added">
+      <option name="closed" value="true" />
+      <created>1719672237455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672237455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +160,7 @@
     <MESSAGE value="Order Added" />
     <MESSAGE value="Stock Added" />
     <MESSAGE value="Report Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Report Added" />
+    <MESSAGE value="Almost Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost Added" />
   </component>
 </project>
