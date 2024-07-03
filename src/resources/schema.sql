@@ -1,5 +1,11 @@
+-- Create the schema (database)
+CREATE SCHEMA IF NOT EXISTS inventory_db;
+
+-- Use the schema
+USE inventory_db;
+
 -- Schema for Products table
-CREATE TABLE Product (
+CREATE TABLE IF NOT EXISTS Product (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     price DECIMAL(10, 2) NOT NULL,
@@ -9,23 +15,23 @@ CREATE TABLE Product (
 );
 
 -- Schema for Stocks table
-CREATE TABLE Stocks (
+CREATE TABLE IF NOT EXISTS Stocks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     product_id INT NOT NULL,
     quantity INT NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    FOREIGN KEY (product_id) REFERENCES Products(id) ON DELETE CASCADE
+    FOREIGN KEY (product_id) REFERENCES Product(id) ON DELETE CASCADE
 );
 
 -- Schema for Orders table
-CREATE TABLE Orders (
+CREATE TABLE IF NOT EXISTS Orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
     product_id INT NOT NULL,
     quantity INT NOT NULL,
     order_date DATE NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-    FOREIGN KEY (product_id) REFERENCES Products(id) ON DELETE CASCADE
+    FOREIGN KEY (product_id) REFERENCES Product(id) ON DELETE CASCADE
 );
 

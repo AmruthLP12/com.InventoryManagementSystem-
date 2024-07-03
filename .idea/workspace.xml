@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="Reports updated">
+    <list default="true" id="0e5fca0a-613a-4457-92c4-a4757e3b892d" name="Changes" comment="schema.sql Added">
       <change beforePath="$PROJECT_DIR$/src/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720013410860</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="schema.sql Added">
+      <option name="closed" value="true" />
+      <created>1720013452213</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720013452213</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +202,7 @@
     <MESSAGE value="Stocks updated" />
     <MESSAGE value="Product updated" />
     <MESSAGE value="Reports updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reports updated" />
+    <MESSAGE value="schema.sql Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="schema.sql Added" />
   </component>
 </project>
