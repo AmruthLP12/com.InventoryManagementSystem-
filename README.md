@@ -74,7 +74,9 @@ mvn exec:java -Dexec.mainClass="com.inventory.ui.Main"
 
 - Contributing
 
-- License## Database Setup
+- License
+
+- ## Database Setup
 
 1. Create the database schema:
 
@@ -204,7 +206,7 @@ inventory-management-system/
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
