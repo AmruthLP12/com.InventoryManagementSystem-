@@ -17,7 +17,7 @@ The Inventory Management System (IMS) is a Java-based application that helps bus
 
 - [Project Structure](#ProjectStructure)
 
-- [Contributing](#Contributing)
+- [Contributing](CONTRIBUTING.md)
 
 - [License](LICENSE.md)
 ## Features
