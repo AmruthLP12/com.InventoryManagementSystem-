@@ -57,7 +57,7 @@ mvn clean install
 mvn exec:java -Dexec.mainClass="com.inventory.ui.Main"
 ```
 
-- ## Database Setup
+ ## Database Setup
 
 1. Create the database schema:
 
@@ -137,7 +137,7 @@ mvn exec:java -Dexec.mainClass="com.inventory.ui.Main"
 - Order Management: Manage orders.
 - Report Management: Generate reports.
 
-3. Project Structure
+## Project Structure
 
 ```bash
 inventory-management-system/
