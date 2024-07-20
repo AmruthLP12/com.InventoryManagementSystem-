@@ -7,17 +7,17 @@ The Inventory Management System (IMS) is a Java-based application that helps bus
 
 - [Features](#Features)
 
-- Installation 
+- [Installation](#Installation) 
 
-- Database Setup
+- [Database Setup](#DatabaseSetup)
 
-- Configuration
+- [Configuration](#Configuration)
 
-- Usage
+- [Usage](#Usage)
 
-- Project Structure
+- [Project Structure](#ProjectStructure)
 
-- Contributing
+- [Contributing](#Contributing)
 
 - License
 ## Features
@@ -56,25 +56,6 @@ mvn clean install
 ```bash
 mvn exec:java -Dexec.mainClass="com.inventory.ui.Main"
 ```
-
-
-## Table of Contents
-
-- Features 
-
-- Installation 
-
-- Database Setup
-
-- Configuration
-
-- Usage
-
-- Project Structure
-
-- Contributing
-
-- License
 
 - ## Database Setup
 
